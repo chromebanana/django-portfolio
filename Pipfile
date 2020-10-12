@@ -9,6 +9,9 @@ verify_ssl = true
 django = "*"
 djangorestframework = "*"
 django-cors-headers = "*"
+gunicorn = "==19.7.1"
+django-utils-six = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.6"

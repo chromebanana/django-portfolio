@@ -1,6 +1,4 @@
 import React from 'react';
-import me from './images/me.jpeg'
-
 
 class About extends React.Component {
 

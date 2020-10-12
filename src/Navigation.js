@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 // className="pa2 ma2 bg-green" variant='primary'
-export const Navigation = ({ onRouteChange }) => {
+export const Navigation = () => {
   return (
 			<nav  className="mw7 pv3 mh0 db tr">
 		<p className='dim black underline f3 dib ml3 pointer mv2'><Link to="/">Home</Link></p>

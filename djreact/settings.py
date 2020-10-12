@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '4x(j8xo6(y+u=)h-7l-0@8wks35ilts06+65lo&fu14jt6n@()'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['chromebanana.herokuapp.com', '127.0.0.1']
 

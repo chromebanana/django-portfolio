@@ -23,7 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY') or 'development5ecretkey'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DJANGO_DEBUG') == 'True'
+# DEBUG = os.environ.get('DJANGO_DEBUG') == 'True'
+DEBUG = True
+
 
 ALLOWED_HOSTS = ['chromebanana.herokuapp.com', '127.0.0.1']
 
@@ -144,7 +146,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'build', 'media')
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ORIGIN_ALLOW_ALL = True
 # CORS_ALLOW_CREDENTIALS = False
 CORS_ORIGIN_WHITELIST = (
     'https://localhost:3000',

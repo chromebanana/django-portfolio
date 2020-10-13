@@ -147,7 +147,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'build', 'media')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # CORS_ORIGIN_ALLOW_ALL = True
-# CORS_ALLOW_CREDENTIALS = False
+CORS_ALLOW_CREDENTIALS = False
 CORS_ORIGIN_WHITELIST = (
     'https://localhost:3000',
 )

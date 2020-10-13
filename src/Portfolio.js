@@ -47,9 +47,7 @@ class Portfolio extends React.Component {
 
 	changePortfolioCategory = (event) => {
 		let target = event.target
-		console.log(target.text)
 		this.setState({category: target.text})
-		console.log(this.state.category)
 
 	}
 

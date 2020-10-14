@@ -1,5 +1,6 @@
 from django.contrib import admin
 
-from .models import Article
+from .models import Professional, Qualification
 
-admin.site.register(Article)
+admin.site.register(Professional)
+admin.site.register(Qualification)

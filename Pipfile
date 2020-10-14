@@ -13,6 +13,7 @@ gunicorn = "==19.7.1"
 django-utils-six = "*"
 whitenoise = "*"
 django-heroku = "*"
+django-rest-multiple-models = "*"
 
 [requires]
 python_version = "3.6"

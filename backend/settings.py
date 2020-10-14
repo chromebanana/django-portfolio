@@ -24,7 +24,8 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY') or 'development5ecretkey'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = os.environ.get('DJANGO_DEBUG') == 'True'
-DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
+# DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
+DEBUG = True
 
 
 ALLOWED_HOSTS = ['chromebanana.herokuapp.com', '127.0.0.1']
@@ -43,7 +44,10 @@ INSTALLED_APPS = [
     # 3rd party apps
     'corsheaders',
     'rest_framework',
-    'articles'
+    'drf_multiple_model',
+
+    #custom apps
+    'articles',
 ]
 
 MIDDLEWARE = [

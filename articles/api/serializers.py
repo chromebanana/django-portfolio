@@ -1,8 +1,13 @@
 from rest_framework import serializers
 
-from articles.models import Article
+from articles.models import Professional, Qualification
 
 class ArticleSerializer(serializers.ModelSerializer):
 	class Meta:
-		model = Article
-		fields = ('title', 'content')
+		model = Professional
+		fields = ("__all__")
+	
+class QualificationSerializer(serializers.ModelSerializer):
+	class Meta:
+		model = Qualification
+		fields = ("__all__")

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-import Home from './Home';
-import About from './About';
-import Portfolio from './Portfolio';
-import { Contact } from './Contact';
+import Home from './pages/Home';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import { Contact } from './pages/Contact';
 
 const BaseRouter = () => (
 	<div>
